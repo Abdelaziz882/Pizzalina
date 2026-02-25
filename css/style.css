@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color:#FF7D29;
+  --text-color:white;
+}
+
+.header {
+  padding: 0.2px;
+}
+.navbar {
+  background-color: transparent !important;
+  backdrop-filter: blur(5px);
+  height: 70px;
+  padding: 5px 20px; 
+  color: var(--text-color) !important;
+}
+.navbar-brand {
+  color: var(--text-color);
+  font-size: 22px;
+}
+.navbar-brand:hover{
+  color: var(--text-color);
+}
+.navbar-brand:focus{
+  color: var(--main-color);
+}
+.navbar-brand span{
+  color: var(--main-color);
+}
+.navbar-collapse a {
+  color: var(--text-color);
+}
+.navbar-collapse .dropdown-menu a {
+  color: black;
+}
+
+
+.nav-link:hover {
+  color: var(--main-color);
+}
+.navbar-collapse .navbar-nav > .nav-item > .nav-link:focus {
+  outline: 2px solid var(--main-color);
+  /* border: 1px solid var(--main-color); */
+  color: var(--main-color);
+  border-radius: 5px;
+
+}
+
+.btn-search {
+  font-size: 18px;
+  background-color: var(--main-color);
+  outline: 1px solid var(--main-color);
+  border: 1px solid var(--main-color);
+  color: var(--text-color);
+}
+.btn-search:hover {
+  background-color: #fe761c;
+}
+.btn-login {
+  font-size: 18px;
+  outline: 2px solid var(--main-color) !important;
+  color: var(--main-color) !important;
+}
+.btn-login:hover {
+  background-color: var(--main-color) !important;
+  color: var(--text-color) !important;
+}
+.btn-login:focus {
+  outline: 2px solid var(--main-color) !important;
+}
+.btn-login:active {
+  outline: 2px solid var(--main-color) !important;
+}
+.carousel-caption {
+  border: 1px solid var(--text-color);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  color: var(--text-color);
+  width: 50%;
+  margin: auto;
+}
